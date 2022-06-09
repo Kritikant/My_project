@@ -1,0 +1,433 @@
+nav{
+    width:960;
+    margin: 0 auto;
+}
+
+nav:before{
+    content:'';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background:#344051;
+    position: absolute;
+    left: 0;
+    z-index:-1;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+
+ul li{
+    float: left;
+}
+
+ul li a{
+    float: left;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 12px
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background: url(img/Снимок.PNG) no repeat right top left fixed;
+}
+
+.img{
+    width: 1349px;
+    height: 613px;
+}
+
+.Hello{
+    position: absolute;
+    left: 387px;
+    top: 35%;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25pt;
+    color: #344051;
+}
+
+.Hello-2{
+    position: absolute;
+    left: 190px;
+    top: 45%;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25pt;
+    color: #344051;
+}
+
+.Helloya{
+    position: absolute;
+    left: 597px;
+    top: 708px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 14pt;
+    color: #344051;
+}
+
+.Yellow_sqare_about_me{
+    position: absolute;
+    left: 615px;
+    top: 785px;
+    width: 80px;
+    height: 4px;
+}
+
+.Name{
+    margin-left: 20%;
+    margin-top: 17px;
+}
+
+.History{
+    margin-left: 230px;
+    margin-top: 18px;
+}
+
+.Historys{
+    margin-left: 265px;
+    margin-top: 18px;
+}
+
+.Circle{
+    margin-top: 55px;
+    width: 240px;
+    height: 240px;
+}
+
+.header-button{
+    transition: .8s;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: 700;
+    color: #6f707e;
+    font-size: 14px;
+    background-color: transparent;
+    border: 2px solid #6f707e;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: 578px;
+    left: 0;
+    right: 0;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    padding-right: 11px;
+    top: 1225px;
+    z-index: 2;
+}
+
+.Position_download{
+    transition: .8s;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #6f707e;
+    font-size: 14px;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 578px;
+    left: 0;
+    right: 0;
+    width: 13px;
+    padding-top: 40px;
+    padding-bottom: 74px;
+    text-align: right;
+    padding-right: 11px;
+    padding-left: 11px;
+    top: 1200px;
+    z-index: 2;
+}
+
+.Historysxyis{
+    margin-left: 535px;
+    margin-top: 95px;
+    font-family: 'Calibri';
+    font-size: 4,24pt;
+    color: #3f495a;
+}
+
+
+.Services{
+    margin-left: 35px;
+    margin-top: 18px;
+}
+
+.Kases{
+    margin-left: 35px;
+    margin-top: 18px;
+}
+
+.Price{
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.Reviews{
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.Contact{
+    margin-left: 40px;
+    margin-top: 18px;
+}
+
+.Fonts_what_can_i_do{
+    margin-top: 70px;
+    width: 1349px;
+    height: 658px;
+}
+
+.What_can_i_do{
+    position: absolute;
+    left: 580px;
+    top: 1400px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 14pt;
+    color: #344051;
+}
+
+.Yellow_sqare_what_can_i_do{
+    position: absolute;
+    left: 625px;
+    top: 1480px;
+    width: 80px;
+    height: 4px;
+}
+
+.Position_img_what_can_i_do_img1{
+    transition: .8s;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: transparent;
+    position: absolute;
+    left:240px;
+    top: 1600px;
+    z-index: 2;
+}
+
+.Position_img_what_can_i_do_img2{
+    transition: .8s;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: transparent;
+    position: absolute;
+    left:500px;
+    top: 1600px;
+    z-index: 2;
+}
+
+.Position_img_what_can_i_do_img3{
+    transition: .8s;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: transparent;
+    position: absolute;
+    right:515px;
+    top: 1600px;
+    z-index: 2;
+}
+
+.Position_img_what_can_i_do_img4{
+    transition: .8s;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: transparent;
+    position: absolute;
+    right: 240px;
+    top: 1600px;
+    z-index: 2;
+}
+
+.Position_header_what_can_i_do1{
+    position: absolute;
+    left: 220px;
+    top: 1670px;
+    font-family: 'Bahnschrift';
+    font-size: 4,46pt;
+    color: #cf7600;
+}
+
+.Position_header_what_can_i_do2{
+    position: absolute;
+    left: 480px;
+    top: 1670px;
+    font-family: 'Bahnschrift';
+    font-size: 4,46pt;
+    color: #cf7600;
+}
+
+.Position_header_what_can_i_do3{
+    position: absolute;
+    right: 485px;
+    top: 1670px;
+    font-family: 'Bahnschrift';
+    font-size: 4,46pt;
+    color: #cf7600;
+}
+
+.Position_header_what_can_i_do4{
+    position: absolute;
+    right: 240px;
+    top: 1670px;
+    font-family: 'Bahnschrift';
+    font-size: 4,46pt;
+    color: #cf7600;
+}
+
+.Content_header_what_can_i_do--web-design-1{
+    position: absolute;
+    left: 160px;
+    top: 1710px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
+
+.Content_header_what_can_i_do--web-design-2{
+    position: absolute;
+    left: 166px;
+    top: 1725px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
+
+.Content_header_what_can_i_do--web-design-3{
+    position: absolute;
+    left: 180px;
+    top: 1740px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
+
+
+.Content_header_what_can_i_do--development-1{
+    position: absolute;
+    left: 420px;
+    top: 1710px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
+
+.Content_header_what_can_i_do--development-2{
+    position: absolute;
+    left: 426px;
+    top: 1725px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
+
+.Content_header_what_can_i_do--development-3{
+    position: absolute;
+    left: 440px;
+    top: 1740px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
+
+.Content_header_what_can_i_do--SEO-optimization-1{
+    position: absolute;
+    right: 450px;
+    top: 1710px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
+
+.Content_header_what_can_i_do--SEO-optimization-2{
+    position: absolute;
+    right: 457px;
+    top: 1725px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
+
+.Content_header_what_can_i_do--SEO-optimization-3{
+    position: absolute;
+    right: 473px;
+    top: 1740px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
+
+.Content_header_what_can_i_do--marketing-1{
+    position: absolute;
+    right: 170px;
+    top: 1710px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
+
+.Content_header_what_can_i_do--marketing-2{
+    position: absolute;
+    right: 177px;
+    top: 1725px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
+
+.Content_header_what_can_i_do--marketing-3{
+    position: absolute;
+    right: 190px;
+    top: 1740px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
+
+.Cases{
+    position: absolute;
+    left: 615px;
+    top: 2040px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 14pt;
+    color: #344051;
+}
+
+.Yellow_sqare_cases{
+    position: absolute;
+    left: 622px;
+    top: 2120px;
+    width: 70px;
+    height: 4px;
+}
+
+.Content_cases{
+    position: absolute;
+    right: 190px;
+    top: 2210px;
+    font-family: 'Calibri';
+    font-size: 10pt;
+    font-weight: bold;
+    color: #3f495a;
+}
